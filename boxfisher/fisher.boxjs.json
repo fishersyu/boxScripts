@@ -1,0 +1,21 @@
+{
+  "id": "fishersyu.app.sub",
+  "name": "fishersyu应用订阅",
+  "author": "@fishersyu",
+  "icon": "https://avatars.githubusercontent.com/u/7847252?s=400&u=57a9dec09959daecef2edab6365806fd177aa677&v=4",
+  "repo": "https://github.com/fishersyu/boxScripts",
+  "apps": [    
+    {
+      "id": "lynkco",
+      "name": "领克签到",
+      "keys": ["fisher_cookie_lynkco"],
+      "author": "@fisher",
+      "repo": "https://github.com/fishersyu/boxScripts/tree/master/lynkco",
+      "script": "https://raw.githubusercontent.com/fishersyu/boxScripts/master/lynkco/lynkco.js",
+      "icons": [
+        "https://raw.githubusercontent.com/fishersyu/boxScripts/master/lynkco/lynkco.png",
+        "https://raw.githubusercontent.com/fishersyu/boxScripts/master/lynkco/lynkco.png"
+      ]
+    }
+  ]
+}

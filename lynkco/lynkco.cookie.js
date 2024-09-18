@@ -5,6 +5,11 @@ const cookieVal = $request.headers['Cookie']
 const cookieVals = $request.headers
 if (cookieVals) {
   fisher.log(`[${cookieName}] 获取Cookies: 成功, cookies: ${cookieVals}`)
+  for (const key in cookieVals) {
+    if (cookieVals.hasOwnProperty(key)) {
+      fisher.log(`<key======>value====> ${key}: ${cookieVals[key]}`);
+    }
+  }
 }
 if (cookieVal) {
   if (fisher.setdata(cookieVal, cookieKey)) {

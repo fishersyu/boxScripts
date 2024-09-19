@@ -8,7 +8,7 @@
     {
       "id": "lynkco",
       "name": "领克签到",
-      "keys": ["fisher_cookie_lynkco"],
+      "keys": ["fisher_cookie_lynkco","fisher_header_token_lynkco"],
       "author": "@fisher",
       "repo": "https://github.com/fishersyu/boxScripts/tree/master/lynkco",
       "script": "https://raw.githubusercontent.com/fishersyu/boxScripts/master/lynkco/lynkco.js",

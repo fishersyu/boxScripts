@@ -4,10 +4,12 @@ const signheaderKey = 'signheader_lynkco'
 const fishersyu = init()
 const signurlVal = fishersyu.getdata(signurlKey)
 const signheaderVal = fishersyu.getdata(signheaderKey)
+const testToken = fishersyu.getdata("testToken")
 
 sign()
 
 function sign() {
+    fishersyu.log(`${signurlVal} signapp - testToken: ${testToken}`)
     fishersyu.log(`${signurlVal} signapp - 签到test: ${signheaderVal}`)
     fishersyu.log(`signapp - token: ${signurlToken}`)
     fishersyu.msg("测试", "签到测试", "签到中。。。。。。。")
